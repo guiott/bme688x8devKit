@@ -1,5 +1,7 @@
 Cloned from the original:
+
 https://github.com/boschsensortec/Bosch-BSEC2-Library/tree/master/examples/bme68x_demo_sample
+
 Modified to work with Adafruit Feather ESP32 V2
 
 1 - Change in: ble_controller.cpp
@@ -14,6 +16,7 @@ void bleController::onWrite(BLECharacteristic *pCharacteristic)
   .......
 
 2 - moved "label_doc" on bme68x_datalogger.h and .cpp from DRAM to PSRAM
+
 3 - updated libraries 
 
 Following the original descripion from BOSCH
