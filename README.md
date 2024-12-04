@@ -2,14 +2,15 @@ Modified to work with Adafruit Feather ESP32 V2
 
 ble_controller.cpp
 
+```
 void bleController::onWrite(BLECharacteristic *pCharacteristic)
 {
-	// ORIGINALE std::string rx_value = pCharacteristic->getValue(), cmd_name;
-  // Converti in std::string se necessario
+// ORIGINALE std::string rx_value = pCharacteristic->getValue(), cmd_name;
+// Converti in std::string se necessario
   std::string rx_value = std::string(pCharacteristic->getValue().c_str());
   std::string cmd_name;
-
   .......
+```
 
 bme68x_datalogger.h and .cpp to use PSRAM
 
