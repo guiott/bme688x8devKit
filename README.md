@@ -27,18 +27,17 @@ Follow the Installation and getting started in the [README.md](../../README.md).
 
 ## Instructions to build the **bme68x_demo_sample**
 
-1. Install the following Arduino libraries under Sketch->Include Library->Manage Libraries
+1. Install the following Arduino libraries under:<br>Sketch->Include Library->Manage Libraries
 
 	- ArduinoJson (tested for 6.19.4 by Benoit Blanchon)
-   working with 6.21.5
+  <br>working with 6.21.5
 
 	- RTClib (tested for 2.0.3 by Adafruit)
-   workiing with 2.1.4
-
+   <br>working with 2.1.4
     	- Click OK, when asked to install needed dependencies
 
 	- SdFat (tested for 2.1.2 by Bill Greiman)
-  working with 2.2.3
+  <br>working with 2.2.3
 
 2. Open the 'bme68x_demo_sample.ino' file from the path - Bosch_BSEC2_Library/examples/bme68x_demo_sample
 
